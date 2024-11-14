@@ -6,7 +6,6 @@
     <title>Sistematizacion papeleria</title>
     <link rel="shortcut icon" href="Img/Logo.jpg" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&display=swap" rel="stylesheet">
-    <script src="formulario.js"></script>
     <link rel="stylesheet" href="Css/Styles.css">
 </head>
 
@@ -23,8 +22,8 @@
       <a href="">Registro</a>
    
     </nav>
-  
-    <section id="idInicio" class="textos-header">
+
+   <section id="idInicio" class="textos-header">
       <h1>Papeleria y variedades "la victoria"</h1>
       <h2>Calidad-precio</h2>
    </section>
@@ -204,17 +203,22 @@
    <div class="form-container">
       <h2>PQRS</h2>
       <form id="contactForm">
-         <div class="form-group"> <label for="name">Nombre:</label> <input type="text" id="name" name="name" required>
+         <div class="form-group"> <label for="name">Nombre:</label> 
+            <input type="text" id="name" name="name" required>
          </div>
-         <div class="form-group"> <label for="email">Email:</label> <input type="email" id="email" name="email" required>
+         <div class="form-group"> <label for="email">Email:</label> 
+            <input type="email" id="email" name="email" required>
          </div>
-         <div class="form-group"> <label for="message">Mensaje:</label> <textarea id="message" name="message" rows="4"
-               required></textarea>
+         <div class="form-group"> <label for="message">Mensaje:</label> 
+            <textarea id="message" name="message" rows="4" required></textarea>
             <div class="character-count" id="charCount">0/500</div>
          </div>
-         <div class="form-group"> <button type="submit">Enviar</button> </div>
-      </form>  
+         <div class="form-group"> 
+            <button type="submit">Enviar</button> 
+         </div>
+      </form>
    </div>
+   
    
    <!--Pie de pagina-->
    
@@ -235,6 +239,8 @@
      </div>
      <h2 class="titulo-final">&copy; Alero Design | Alejandro Rojas Barona</h2>
    </footer>
-   
+
+<script src="/js/formulario.js"></script>
+
 </body>
 </html>
